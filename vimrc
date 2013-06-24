@@ -74,7 +74,6 @@ filetype plugin indent on
 " let g:zenburn_old_Visual       = 1
 " let g:zenburn_alternate_Visual = 1
 " let g:zenburn_high_Contrast    = 1
-colorscheme vividchalk
 " }}}
 
 " plugin configuration {{{
@@ -227,4 +226,6 @@ function! Rename(dest)
 endfunction
 command! -nargs=1 -complete=file Rename call Rename(<f-args>)
 
+
+colorscheme vividchalk
 " }}}
