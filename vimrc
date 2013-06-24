@@ -227,5 +227,5 @@ endfunction
 command! -nargs=1 -complete=file Rename call Rename(<f-args>)
 
 
-colorscheme vividchalk
+colorscheme distinguished
 " }}}
